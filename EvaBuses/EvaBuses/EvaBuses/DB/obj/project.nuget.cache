@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XdIcC15ugMBNNWDcmtp6meNrZxTlvSIZKhkQh9qyzCBHYwPhE+YEzyLYu5/vVzHkZ5AMjU9sSV9qGcOV2pSckQ==",
+  "dgSpecHash": "uUjJaoDrtzCoJRkSvLODyCxvj+2puli6BfKzjvLf8adSpJqdKE4hlJGC6FyDVVw/KQbpYokuu7Thg1Aex+o/NQ==",
   "success": true,
-  "projectFilePath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
+  "projectFilePath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bishoy sameh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\bishoy sameh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -69,10 +69,10 @@ namespace WebAPI.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("UpdatedById")
+                    b.Property<int?>("UpdatedById")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("UpdatedOn")
+                    b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");

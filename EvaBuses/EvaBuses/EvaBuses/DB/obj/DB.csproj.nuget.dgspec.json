@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {}
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {}
   },
   "projects": {
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
+        "projectUniqueName": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
         "projectName": "DB",
-        "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
+        "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
         "packagesPath": "C:\\Users\\bishoy sameh\\.nuget\\packages\\",
-        "outputPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\obj\\",
+        "outputPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bishoy sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",

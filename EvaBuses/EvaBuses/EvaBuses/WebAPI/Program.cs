@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Services.BusService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("WebAPI"))); // Specify the assembly where migrations are located
+
+
+
+builder.Services.AddScoped<IBusService, BusService>();
+
 
 
 

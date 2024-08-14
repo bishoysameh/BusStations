@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\WebApi\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
+        "projectUniqueName": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
         "projectName": "DB",
-        "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
+        "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj",
         "packagesPath": "C:\\Users\\bishoy sameh\\.nuget\\packages\\",
-        "outputPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\obj\\",
+        "outputPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bishoy sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj": {
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\bishoy sameh\\.nuget\\packages\\",
-        "outputPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\obj\\",
+        "outputPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bishoy sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
-                "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj"
+              "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj": {
+                "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\DB.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\WebApi\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\WebApi\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\WebApi\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\bishoy sameh\\.nuget\\packages\\",
-        "outputPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bishoy sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj": {
-                "projectPath": "D:\\EVAAA\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj"
+              "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\bishoy sameh\\Projects\\BusStations\\BusStations\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\Services.csproj"
               }
             }
           }

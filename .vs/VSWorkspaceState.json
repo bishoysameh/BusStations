@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EvaBuses",
+    "\\EvaBuses\\EvaBuses",
+    "\\EvaBuses\\EvaBuses\\EvaBuses",
+    "\\EvaBuses\\EvaBuses\\EvaBuses\\DB\\Models",
+    "\\EvaBuses\\EvaBuses\\EvaBuses\\Services\\DTOs",
+    "\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\Controllers",
+    "\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI\\Migrations"
+  ],
+  "SelectedNode": "\\EvaBuses\\EvaBuses\\EvaBuses\\WebAPI",
+  "PreviewInSolutionExplorer": false
+}
