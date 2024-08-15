@@ -18,16 +18,20 @@ namespace WebApi.Controllers
             _busService = busService;
         }
 
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> GetBusById(int id)
-        //{
-        //    var bus = await _busService.GetBusByIdAsync(id);
-        //    if (bus == null)
-        //        return NotFound();
-        //    return Ok(bus);
-        //  }
+
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetBusByIdAsync(int id)
+        {
+            var bus = await _busService.GetBusByIdAsync(id);
+            if (bus == null)
+                return NotFound();
+            return Ok(bus);
+        }
+
 
         [HttpPost]
+        //[Authorize]
         public async Task<IActionResult> AddBus([FromBody] CreateBusDto createBusDto)
         {
             if (!ModelState.IsValid)
@@ -36,6 +40,57 @@ namespace WebApi.Controllers
             var busId = await _busService.AddBusRecordAsync(createBusDto);
             return Ok(new { Id = busId });
         }
+
+        
+
+        [HttpPost("filter")]
+        public async Task<IActionResult> GetFilteredBuses([FromBody] BusFilterDto filterDto)
+        {
+
+            if (filterDto == null)
+                {
+                    return BadRequest("Filter criteria are missing.");
+                }
+
+            var buses = await _busService.GetBusesAsync(filterDto);
+            return Ok(buses);
+        }
+
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBus(int id)
+        {
+            bool isDeleted = await _busService.DeleteBusAsync(id);
+            if (!isDeleted)
+            {
+                return NotFound($"Bus with ID {id} not found");
+            }
+            return NoContent();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //[HttpPost("import-excel")]
+        //public async Task<IActionResult> ImportExcelData([FromBody] IEnumerable<CreateBusDto> busDtos)
+        //{
+        //    var result = await _busService.SaveExcelDataAsync(busDtos);
+        //    return result ? Ok() : StatusCode(500, "Failed to import data");
+        //}
+
+
+
 
         //[HttpPut("{id}")]
         //public async Task<IActionResult> EditBus(int id, [FromBody] EditBusDto editBusDto)
@@ -65,26 +120,6 @@ namespace WebApi.Controllers
         //{
         //    var buses = await _busService.GetBusesListAsync(filterDto);
         //    return Ok(buses);
-        //}
-
-        [HttpPost("filter")]
-        public async Task<IActionResult> GetFilteredBuses([FromBody] BusFilterDto filterDto)
-        {
-
-            if (filterDto == null)
-                {
-                    return BadRequest("Filter criteria are missing.");
-                }
-
-            var buses = await _busService.GetBusesAsync(filterDto);
-            return Ok(buses);
-        }
-
-        //[HttpPost("import-excel")]
-        //public async Task<IActionResult> ImportExcelData([FromBody] IEnumerable<CreateBusDto> busDtos)
-        //{
-        //    var result = await _busService.SaveExcelDataAsync(busDtos);
-        //    return result ? Ok() : StatusCode(500, "Failed to import data");
         //}
     }
 }

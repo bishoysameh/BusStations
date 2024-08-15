@@ -31,7 +31,7 @@ namespace Services.BusService
                 BusLineStops = busDto.BusLineStops,
                 BusType = busDto.BusType,
                 CreatedOn = DateTime.UtcNow,
-                CreatedById = busDto.CreatedById,
+                CreatedById = null,
                 IsDeleted = false
             };
 
@@ -80,7 +80,55 @@ namespace Services.BusService
 
             return await query.ToListAsync();
         }
+
+
+
+        public async Task<BusDto> GetBusByIdAsync(int id)
+        {
+            var bus = await _context.Buses
+                                    .Where(b => b.Id == id)
+                                    .FirstOrDefaultAsync();
+
+            if (bus == null)
+            {
+                return null;
+            }
+
+            return new BusDto
+            {
+                Id = bus.Id,
+                DriverName = bus.DriverName,
+                DriverPhoneNumber = bus.DriverPhoneNumber,
+                BusStopStation = bus.BusStopStation,
+                CarNumber = bus.CarNumber,
+                BusCapacity = bus.BusCapacity,
+                CarModel = bus.CarModel,
+                BusLineStops = bus.BusLineStops,
+                BusType = bus.BusType,
+                CreatedOn = bus.CreatedOn,
+                UpdatedOn = bus.UpdatedOn
+            };
+        }
+
+
+
+        public async Task<bool> DeleteBusAsync(int id)
+        {
+            var bus = await _context.Buses.FindAsync(id);
+            if (bus == null || bus.IsDeleted)
+            {
+                return false;
+            }
+
+            bus.IsDeleted = true;
+            _context.Buses.Update(bus);
+            await _context.SaveChangesAsync();
+
+            return true;
+        }
+
     }
 }
+
 
 

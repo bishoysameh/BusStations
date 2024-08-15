@@ -3,7 +3,14 @@
     "",
     "\\EvaBuses",
     "\\EvaBuses\\EvaBuses",
-    "\\EvaBuses\\EvaBuses\\WebAPI"
+    "\\EvaBuses\\EvaBuses\\DB",
+    "\\EvaBuses\\EvaBuses\\DB\\Models",
+    "\\EvaBuses\\EvaBuses\\Services",
+    "\\EvaBuses\\EvaBuses\\Services\\BusService",
+    "\\EvaBuses\\EvaBuses\\Services\\DTOs",
+    "\\EvaBuses\\EvaBuses\\WebAPI",
+    "\\EvaBuses\\EvaBuses\\WebAPI\\Controllers"
   ],
+  "SelectedNode": "\\EvaBuses\\EvaBuses\\WebAPI\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
